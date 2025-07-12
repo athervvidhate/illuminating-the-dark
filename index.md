@@ -89,7 +89,7 @@ Below is the head of our filtered table of data that we used for the rest of thi
 ## Univariate Analysis
 
 <iframe
-  src="assets/output.html"
+  src="{{ '/assets/output.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -99,7 +99,7 @@ In this plot we are looking at the distribution of the probability of outage dur
 
 
 <iframe
-  src="assets/pie_nerc.html"
+  src="{{ '/assets/pie_nerc.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -137,7 +137,7 @@ In this plot we see the breakdown of the distribution of outages by NERC Region.
 ## Bivariate Analysis
 
 <iframe
-  src="assets/scatter_duration_customers.html"
+  src="{{ '/assets/scatter_duration_customers.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -208,7 +208,7 @@ Alternative Hypothesis: The missingness of the amount of customers affected diff
 
 
 <iframe
-  src="assets/bar_climate_customer_missing.html"
+  src="{{ '/assets/bar_climate_customer_missing.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -217,7 +217,7 @@ Alternative Hypothesis: The missingness of the amount of customers affected diff
 There seems to be a noticeable difference between categories and missingness. We perform a permutation test to check for missingness dependency. We have a significance level of `p=0.05`. We will use total variation distance (TVD) as our test statistic, as we are dealing with categorical data points.
 
 <iframe
-  src="assets/hist_climate_perm.html"
+  src="{{ '/assets/hist_climate_perm' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -237,7 +237,7 @@ Null Hypothesis: The missingness of the amount of customers affected is the same
 Alternative Hypothesis: The missingness of the amount of customers affected differs across the different parts of the day.
 
 <iframe
-  src="assets/bar_daypart_customer_missing.html"
+  src="{{ '/assets/bar_daypart_customer_missing.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -246,7 +246,7 @@ Alternative Hypothesis: The missingness of the amount of customers affected diff
 We can see here that the distributions of missingness seem much more even based on the parts of day that the climate regions. We can run another permutation test to statistically quantify whether or not the differences are significant or not. We will use the TVD again as our test statistic.
 
 <iframe
-  src="assets/hist_daypart_perm.html"
+  src="{{ '/assets/hist_daypart_perm.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -271,7 +271,7 @@ In our testing, we find now that there is an observed test statistic of `0.18`, 
 We performed a permutation Test with 10,000 iterations at the 0.05 significance level to generate an empirical distribution of the test statistic, as shown below:
 
 <iframe
-  src="assets/hist_hypo.html"
+  src="{{ '/assets/hist_hypo.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
@@ -361,7 +361,7 @@ The figure below shows the result of our permutation test with 10,000 simulation
 
 
 <iframe
-  src="assets/fig_final.html"
+  src="{{ '/assets/fig_final.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
