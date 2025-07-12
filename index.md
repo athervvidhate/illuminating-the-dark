@@ -1,3 +1,8 @@
+---
+layout: default
+title: Illuminating the Dark -- An In-Depth Analysis of Power Outage Data
+---
+
 # Introduction
 
 This dataset was accessed from Purdue University’s Laboratory for Advancing Sustainable Critical Infrastructure, at [https://engineering.purdue.edu/LASCI/research-data/outages](https://engineering.purdue.edu/LASCI/research-data/outages). The dataset examines statistics about major power outages in the United States from January 2000 to July 2016. 
