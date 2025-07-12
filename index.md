@@ -217,7 +217,7 @@ Alternative Hypothesis: The missingness of the amount of customers affected diff
 There seems to be a noticeable difference between categories and missingness. We perform a permutation test to check for missingness dependency. We have a significance level of `p=0.05`. We will use total variation distance (TVD) as our test statistic, as we are dealing with categorical data points.
 
 <iframe
-  src="{{ '/assets/hist_climate_perm' | relative_url }}"
+  src="{{ '/assets/hist_climate_perm.html' | relative_url }}"
   width="800"
   height="600"
   frameborder="0"
